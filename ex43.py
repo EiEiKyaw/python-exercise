@@ -121,8 +121,8 @@ class TheBridge(Scene):
             disarm the bomb. You die knowing they will probably
             blow up when it goes off.
             """))
-    return 'death'
-
+        return 'death'
+    
     elif action == "slowly place the bomb":
         print(dedent("""
             You point your blaster at the bomb under your arm and

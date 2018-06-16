@@ -1,3 +1,5 @@
+from sys import argv
+
 print("How old are you?", end=' ')
 age = input( )
 print("How tall are you?", end=' ')
@@ -9,17 +11,17 @@ print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
 script, filename = argv
 
-txt = open(filenme)
+txt = open(filename)
 
 print("Here's your file {filename}:")
-print(tx.read())
+print(txt.read())
 
 print("Type the filename again:")
 file_again = input("> ")
 
 txt_again = open(file_again)
 
-print(txt_again_read())
+print(txt_again.read())
 
 
 print("Let's practice everything.")
